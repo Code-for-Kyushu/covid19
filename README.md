@@ -2,7 +2,9 @@
 
 ![](https://github.com/Code-for-Kyushu/covid19/workflows/production%20deploy/badge.svg)
 
-[![九州 新型コロナウイルス感染症対策サイト](https://raw.githubusercontent.com/Code-for-Kyushu/covid19/development/static/ogp.png](https://dev-covid19-kyusyu.netlify.com/)
+
+[![九州 新型コロナウイルス感染症対策サイト](https://raw.githubusercontent.com/Code-for-Kyushu/covid19/development/static/ogp.png)](https://dev-covid19-kyusyu.netlify.com/)
+
 
 
 ### 日本語 | English | 
