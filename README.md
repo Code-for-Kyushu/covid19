@@ -30,13 +30,13 @@ Issues にあるいろいろな修正にご協力いただけると嬉しいで�
 
 ## 開発者向け情報
 
-[東京都 新型コロナ対策サイト 地域展開 情報共有 - HackMD](https://hackmd.io/@homata/ryHz3P4BI)
+[九州 新型コロナ対策サイト 地域展開 情報共有 - HackMD](https://hackmd.io/@homata/ryHz3P4BI)
 
 
 ## 開発の始め方
 
 ↓にうまくまとまっています。ちょっとだけ違います。
-[東京都 新型コロナウイルス対策サイトへの貢献方法を解説 - Qiita](https://qiita.com/FPC_COMMUNITY/items/b9cc072813dc2231b2b2)
+[九州 新型コロナウイルス対策サイトへの貢献方法を解説 - Qiita](https://qiita.com/FPC_COMMUNITY/items/b9cc072813dc2231b2b2)
 
 まずは自分のリポジトリへ[Code for KyushuのGithubリポジトリ](https://github.com/Code-for-Kyushu/covid19)からフォークしてください。
 

@@ -28,37 +28,37 @@
      "（注）同一の対象者について複数の検体を調査する場合あり": "（注）同一の対象者について複数の検体を調査する場合あり",
      "{date}の全体累計": "%{date}の全体累計",
      "{date}の合計": "%{date}の合計",
-     "都内": "都内",
+     "九州": "九州",
      "その他": "その他"
    },
    "en": {
      "（注）同一の対象者について複数の検体を調査する場合あり": "(Note) More than one sample from the same subject may be tested.",
      "{date}の全体累計": "Cumulative total as of %{date}",
-     "都内": "Tokyo",
+     "九州": "Tokyo",
      "その他": "Others"
    },
    "zh-cn": {
      "（注）同一の対象者について複数の検体を調査する場合あり": "(註) 同一個案可能被多次檢查",
      "{date}の全体累計": "截至 %{date}",
-     "都内": "东京都",
+     "九州": "东京都",
      "その他": "其它"
    },
    "zh-tw": {
      "（注）同一の対象者について複数の検体を調査する場合あり": "（註）同一個案可能被多次檢查",
      "{date}の全体累計": "累計至 %{date}",
-     "都内": "東京都",
+     "九州": "九州",
      "その他": "其它"
    },
    "ko": {
      "（注）同一の対象者について複数の検体を調査する場合あり": "(주의) 동일 대상자에 대하여 여러번의 검체를 조사하는 경우가 있음",
      "{date}の全体累計": "%{date}의 누적 수",
-     "都内": "도쿄도내",
+     "九州": "도쿄도내",
      "その他": "기타"
    },
    "ja-basic": {
      "（注）同一の対象者について複数の検体を調査する場合あり": "(ちゅうい) おなじ ひとに なんどか けんさ を する とき が あります",
      "{date}の全体累計": "%{date} ぜんぶで",
-     "都内": "とうきょうと の なか",
+     "九州": "とうきょうと の なか",
      "その他": "そのほか"
    }
  }
@@ -177,7 +177,7 @@ export default {
           displayColors: false,
           callbacks: {
             label: tooltipItem => {
-              const labelTokyo = this.$t('都内')
+              const labelTokyo = this.$t('九州')
               const labelOthers = this.$t('その他')
               const labelArray = [labelTokyo, labelOthers]
               let casesTotal, cases

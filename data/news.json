@@ -1,14 +1,14 @@
 {
-  "newsItems": [
-    {
-      "date": "2020/03/09",
-      "url": "https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/1007462.html",
-      "text": "都の備蓄マスク20万枚を都内全区市町村へ提供"
-    },
-    {
-      "date": "2020/03/09",
-      "url": "https://www.fukushihoken.metro.tokyo.lg.jp/oshirase/iryo/maskhaifu0306.html",
-      "text": "都内医療機関及び保健所等へのマスクの配布について"
-    }
-  ]
+    "newsItems": [
+        {
+            "date": "2020/03/11",
+            "url": "https://github.com/Code-for-Kyushu/covid19",
+            "text": "地域版を作成開始しました"
+        },
+        {
+            "date": "2020/03/10",
+            "url": "https://www.facebook.com/groups/code4kyushu/1145387262466761/?comment_id=1146131332392354&notif_id=1583799801674336&notif_t=group_comment_follow",
+            "text": "Code for 九州で議論を開始しました"
+        }
+    ]
 }

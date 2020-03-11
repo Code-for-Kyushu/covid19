@@ -10,12 +10,13 @@
       </v-icon>
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          <img src="/logo.svg" :alt="$t('東京都')" />
+          <img src="/logo.png" :alt="$t('九州')" />
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
         </h1>
       </nuxt-link>
+      (準備中)情報は正確ではありません。
     </div>
     <v-divider class="SideNavigation-HeadingDivider" />
     <div class="sp-none" :class="{ open: isNaviOpen }">
@@ -90,17 +91,25 @@
   "ja": {
     "サイドメニュー項目を開く": "サイドメニュー項目を開く",
     "サイドメニュー項目を閉じる": "サイドメニュー項目を閉じる",
-    "東京都": "東京都",
+    "九州": "九州",
     "新型コロナウイルス感染症": "新型コロナウイルス感染症",
     "対策サイト": "対策サイト",
-    "都内の最新感染動向": "都内の最新感染動向",
+    "九州の最新感染動向": "九州の最新感染動向",
+    "福岡の最新感染動向": "福岡の最新感染動向",
+    "熊本の最新感染動向": "熊本の最新感染動向",
+    "佐賀の最新感染動向": "佐賀の最新感染動向",
+    "長崎の最新感染動向": "長崎の最新感染動向",
+    "大分の最新感染動向": "大分の最新感染動向",
+    "鹿児島の最新感染動向": "鹿児島の最新感染動向",
+    "宮崎の最新感染動向": "宮崎の最新感染動向",
+    "沖縄の最新感染動向": "沖縄の最新感染動向",
     "新型コロナウイルス感染症が心配なときに": "新型コロナウイルス感染症が心配なときに",
     "お子様をお持ちの皆様へ": "お子様をお持ちの皆様へ",
     "都民の皆様へ": "都民の皆様へ",
     "企業の皆様・はたらく皆様へ": "企業の皆様・はたらく皆様へ",
-    "東京都新型コロナウイルス感染症対策本部報": "東京都新型コロナウイルス感染症対策本部報",
-    "東京都主催等 中止又は延期するイベント等": "東京都主催等 中止又は延期するイベント等",
-    "東京都公式ホームページ": "東京都公式ホームページ",
+    "九州新型コロナウイルス感染症対策本部報": "九州新型コロナウイルス感染症対策本部報",
+    "九州主催等 中止又は延期するイベント等": "九州主催等 中止又は延期するイベント等",
+    "九州公式ホームページ": "九州公式ホームページ",
     "知事からのメッセージ": "知事からのメッセージ",
     "当サイトについて": "当サイトについて",
     "このサイトの内容物は": "このサイトの内容物は",
@@ -110,17 +119,17 @@
   "en": {
     "サイドメニュー項目を開く": "Open side menu items",
     "サイドメニュー項目を閉じる": "Close side menu items",
-    "東京都": "Tokyo",
+    "九州": "Tokyo",
     "新型コロナウイルス感染症": "COVID-19",
     "対策サイト": "Task Force website",
-    "都内の最新感染動向": "Latest updates on COVID-19 in Tokyo",
+    "九州の最新感染動向": "Latest updates on COVID-19 in Tokyo",
     "新型コロナウイルス感染症が心配なときに": "If you suspect having COVID-19",
     "お子様をお持ちの皆様へ": "For families with children",
     "都民の皆様へ": "For citizens in Tokyo (in Japanese)",
     "企業の皆様・はたらく皆様へ": "For enterprises, employees and SMEs",
-    "東京都新型コロナウイルス感染症対策本部報": "Official statements from Tokyo COVID-19 Task Force (in Japanese)",
-    "東京都主催等 中止又は延期するイベント等": "Cancelled or Postponed public events (in Japanese)",
-    "東京都公式ホームページ": "Official website of the Tokyo Metropolitan Government (in Japanese)",
+    "九州新型コロナウイルス感染症対策本部報": "Official statements from Tokyo COVID-19 Task Force (in Japanese)",
+    "九州主催等 中止又は延期するイベント等": "Cancelled or Postponed public events (in Japanese)",
+    "九州公式ホームページ": "Official website of the Tokyo Metropolitan Government (in Japanese)",
     "知事からのメッセージ": "Message from Governor Koike on COVID-19 (in Japanese)",
     "当サイトについて": "About the website",
     "このサイトの内容物は": "Content on This Site is Licensed Under a",
@@ -130,17 +139,17 @@
   "zh-cn": {
     "サイドメニュー項目を開く": "打开侧栏菜单",
     "サイドメニュー項目を閉じる": "关闭侧栏菜单",
-    "東京都": "东京都",
+    "九州": "东京都",
     "新型コロナウイルス感染症": "新型冠状病毒",
     "対策サイト": "资讯站",
-    "都内の最新感染動向": "东京都内最新疫情",
+    "九州の最新感染動向": "东京九州最新疫情",
     "新型コロナウイルス感染症が心配なときに": "如果您对新冠肺炎感到担心",
     "お子様をお持ちの皆様へ": "致各位家中有小孩子的家长",
     "都民の皆様へ": "致东京都居民（内容为日语）",
     "企業の皆様・はたらく皆様へ": "致企业及员工",
-    "東京都新型コロナウイルス感染症対策本部報": "东京都新型冠状病毒官方通告（内容为日语）",
-    "東京都主催等 中止又は延期するイベント等": "延期或取消的大型活动（仅限东京都主办等）（内容为日语）",
-    "東京都公式ホームページ": "东京都官方网站（内容为日语）",
+    "九州新型コロナウイルス感染症対策本部報": "东京都新型冠状病毒官方通告（内容为日语）",
+    "九州主催等 中止又は延期するイベント等": "延期或取消的大型活动（仅限东京都主办等）（内容为日语）",
+    "九州公式ホームページ": "东京都官方网站（内容为日语）",
     "知事からのメッセージ": "东京都知事寄语（内容为日语）",
     "当サイトについて": "关于本站",
     "このサイトの内容物は": "Content on This Site is Licensed Under a",
@@ -150,18 +159,18 @@
   "zh-tw": {
     "サイドメニュー項目を開く": "打開側邊選單",
     "サイドメニュー項目を閉じる": "關閉側邊選單",
-    "東京都": "東京都",
+    "九州": "九州",
     "新型コロナウイルス感染症": "新型冠狀病毒",
     "対策サイト": "疫情中心",
-    "都内の最新感染動向": "東京都最新疫情資訊",
+    "九州の最新感染動向": "九州最新疫情資訊",
     "新型コロナウイルス感染症が心配なときに": "若您擔心遭受感染",
     "お子様をお持ちの皆様へ": "給家中有小孩的家長",
-    "都民の皆様へ": "給東京都市民（日文網站）",
+    "都民の皆様へ": "給九州市民（日文網站）",
     "企業の皆様・はたらく皆様へ": "給企業與勞工",
-    "東京都新型コロナウイルス感染症対策本部報": "東京都新型冠狀病毒官方公告（日文網站）",
-    "東京都主催等 中止又は延期するイベント等": "大型活動延期或取消公告（限東京都主、協辦）（日文網站）",
-    "東京都公式ホームページ": "東京都官方網站（日文網站）",
-    "知事からのメッセージ": "東京都知事的話（日文網站）",
+    "九州新型コロナウイルス感染症対策本部報": "九州新型冠狀病毒官方公告（日文網站）",
+    "九州主催等 中止又は延期するイベント等": "大型活動延期或取消公告（限九州主、協辦）（日文網站）",
+    "九州公式ホームページ": "九州官方網站（日文網站）",
+    "知事からのメッセージ": "九州知事的話（日文網站）",
     "当サイトについて": "關於本站",
     "このサイトの内容物は": "Content on This Site is Licensed Under a",
     "クリエイティブ・コモンズ 表示 4.0 ライセンス": "Creative Commons Attribution 4.0 International License",
@@ -170,17 +179,17 @@
   "ko": {
     "サイドメニュー項目を開く": "사이트 메뉴를 열기",
     "サイドメニュー項目を閉じる": "사이트 메뉴를 닫기",
-    "東京都": "도쿄도",
+    "九州": "도쿄도",
     "新型コロナウイルス感染症": "코로나19",
     "対策サイト": "TF 웹사이트",
-    "都内の最新感染動向": "도쿄도내 확진자수 현황",
+    "九州の最新感染動向": "도쿄도내 확진자수 현황",
     "新型コロナウイルス感染症が心配なときに": "감염이 의심될 때",
     "お子様をお持ちの皆様へ": "아이가 있는 가정의 경우",
     "都民の皆様へ": "도쿄 거주자의 경우 (일본어)",
     "企業の皆様・はたらく皆様へ": "직장과 근로자의 경우",
-    "東京都新型コロナウイルス感染症対策本部報": "도쿄도 코로나 TF 공식 발표 (일본어)",
-    "東京都主催等 中止又は延期するイベント等": "대규모 행사 연기 또는 취소 (일본어)",
-    "東京都公式ホームページ": "도쿄도청 공식 사이트 (일본어)",
+    "九州新型コロナウイルス感染症対策本部報": "도쿄도 코로나 TF 공식 발표 (일본어)",
+    "九州主催等 中止又は延期するイベント等": "대규모 행사 연기 또는 취소 (일본어)",
+    "九州公式ホームページ": "도쿄도청 공식 사이트 (일본어)",
     "知事からのメッセージ": "코로나19에 대한 도쿄 도지사의 메세지 (일본어)",
     "当サイトについて": "사이트 소개",
     "このサイトの内容物は": "Content on This Site is Licensed Under a",
@@ -190,17 +199,17 @@
   "ja-basic": {
     "サイドメニュー項目を開く": "なにかしりたいときに ひだりの サイドメニュー ボタンを おす",
     "サイドメニュー項目を閉じる": "なにか しりたいときに ひだりの サイドメニュー ボタンを とじる",
-    "東京都": "とうきょうと",
+    "九州": "とうきょうと",
     "新型コロナウイルス感染症": "あたらしいコロナウイルスの",
     "対策サイト": "びょうきについて",
-    "都内の最新感染動向": "とうきょうとでの コロナウイルスの あたらしいじょうほう",
+    "九州の最新感染動向": "とうきょうとでの コロナウイルスの あたらしいじょうほう",
     "新型コロナウイルス感染症が心配なときに": "コロナウイルスがこわいときに",
     "お子様をお持ちの皆様へ": "こどもが いる ひと へ",
     "都民の皆様へ": "とうきょうとに すんでいる ひと へ",
     "企業の皆様・はたらく皆様へ": "はたらいている ひと へ",
-    "東京都新型コロナウイルス感染症対策本部報": "とうきょうと からの おしらせ",
-    "東京都主催等 中止又は延期するイベント等": "コロナウイルスのため やめた あつまり",
-    "東京都公式ホームページ": "とうきょうとの ウェブサイト",
+    "九州新型コロナウイルス感染症対策本部報": "とうきょうと からの おしらせ",
+    "九州主催等 中止又は延期するイベント等": "コロナウイルスのため やめた あつまり",
+    "九州公式ホームページ": "とうきょうとの ウェブサイト",
     "知事からのメッセージ": "えらいひとからの ことば",
     "当サイトについて": "この ウェブサイトについて",
     "このサイトの内容物は": "この ウェブサイトの ないようは",
@@ -230,7 +239,7 @@ export default {
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('都内の最新感染動向'),
+          title: this.$t('九州の最新感染動向'),
           link: this.localePath('/')
         },
         {
@@ -240,14 +249,56 @@ export default {
           divider: true
         },
         {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('福岡の最新感染動向'),
+          link: this.localePath('/fukuoka')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('熊本の最新感染動向'),
+          link: this.localePath('/kumamoto')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('佐賀の最新感染動向'),
+          link: this.localePath('/saga')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('長崎の最新感染動向'),
+          link: this.localePath('/nagasaki')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('大分の最新感染動向'),
+          link: this.localePath('/ooita')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('鹿児島の最新感染動向'),
+          link: this.localePath('/kagoshima')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('宮崎の最新感染動向'),
+          link: this.localePath('/miyazaki')
+        },
+        {
+          icon: 'mdi-chart-timeline-variant',
+          title: this.$t('沖縄の最新感染動向'),
+          link: this.localePath('/okinawa'),
+          divider: true
+        },
+        {
           icon: 'parent',
           title: this.$t('お子様をお持ちの皆様へ'),
           link: this.localePath('/parent')
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+          title: this.$t('住民の皆様へ'),
+          link:
+            'https://www.city.fukuoka.lg.jp/hofuku/hokenyobo/health/kansen/nCorV.html#ci'
         },
         {
           icon: 'mdi-domain',
@@ -256,12 +307,7 @@ export default {
           divider: true
         },
         {
-          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
-          link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
-        },
-        {
-          title: this.$t('東京都主催等 中止又は延期するイベント等'),
+          title: this.$t('中止又は延期するイベント等'),
           link:
             'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event02.html'
         },
@@ -273,11 +319,6 @@ export default {
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
-        },
-        {
-          title: this.$t('東京都公式ホームページ'),
-          link: 'https://www.metro.tokyo.lg.jp/',
-          divider: true
         }
       ]
     },
